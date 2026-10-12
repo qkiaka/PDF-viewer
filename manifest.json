@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "URLビューア",
+  "version": "1.0",
+  "description": "URLを入れるだけで、保存せずにPDFを表示します。",
+  "action": { "default_title": "URLビューア" },
+  "background": { "service_worker": "background.js" },
+  "host_permissions": ["<all_urls>"]
+}
